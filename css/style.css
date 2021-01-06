@@ -1,20 +1,21 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
 }
 
 #navbar {
-    background-color: #444;
+    background:linear-gradient(to top, #F59860 0%, #FAC861 100%);
     color: white;
     overflow: auto;
   
 }
 
 #navbar a { color: white;
-  text-decoration: none;
+    text-decoration: none;
+  
 }
 
 #navbar .logo {
@@ -31,8 +32,10 @@
   float: left;
 }
 
-#navbar ul li a {display: block;
-  padding: 20px;
+#navbar ul li a {
+    font-weight: 700;
+    display: block;
+  padding: 26px;
   text-align: center;
   
   
@@ -40,12 +43,186 @@
 
 #navbar ul li a:hover, 
 #navbar ul li a.current {
-    background-color: rgb(49, 49, 49);
-    color:#0099ff ;
+    background-color: rgb(255, 249, 249);
+    color:#5759DD ;
 }
 
 #navbar .logo a:hover:hover{
  
-  color: #0099ff; 
+  color: #5759DD; 
 }
+#showcase{
+     padding: 100px 0;
+     
+}
+#showcase .text-contant{
+    width: 50%;
+    float: left;
+    padding-top: 160px;
+    padding-left: 170px;
+    
+}
+
+#showcase .text-contant h2{
+    color: #757575;
+    font-size: 50px;    
+}
+#showcase .text-contant h1{
+    color: #5759DD;
+    font-size: 56px; 
+    padding-bottom: 10px;
+}
+#showcase .text-contant p{
+    font-size: 18px;
+}
+#showcase .text-contant .primary-button{
+    background: linear-gradient(to bottom, #F96D61 0%, #ff9c93 100%);
+    color: #333;
+    border: none;
+    font-weight: 800;
+    font-size: 17px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+#showcase .text-contant .primary-button:hover{
+    background: linear-gradient(to bottom, #5759DD 0%, #9c9dff 100%);
+    color: white;
+}
+
+#showcase .img-contant img {
+   float: left;
+   width: 50%;
+   padding: 90px;
+    
+}
+/* about */
+#about{
+    padding: 100px 0px;
+    
+}
+
+#about .img-cont img {
+    float: left;
+    width: 50%;
+    padding: 80px;    
+ }
+
+ #about .text-cont{
+    width: 50%;
+    float: left;
+    padding-top: 150px;
+    padding-right: 80px;
+    padding-bottom: 300px;
+   
+}
+
+ #about .text-cont h2{
+    color: #F96D61;
+    font-size: 50px; 
+    padding-bottom: 10px;
+ }
+ #about .text-cont p{
+    font-size: 18px;
+}
+
+#about .text-cont .primary-button{
+    background: linear-gradient(to bottom, #5759DD 0%, #9c9dff 100%);
+    color: rgb(14, 13, 13);
+    border: none;
+    font-weight: 800;
+    font-size: 17px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 20px;    
+}
+
+#about .text-cont .primary-button:hover{
+    background: linear-gradient(to bottom, #F96D61 0%, #ff9c93 100%);
+    color: white;
+}
+
+
+
+.work-project-wrapper {
+    padding: 50px 0;
+    background: rgba(40, 187, 228, 0.19);
+  }
   
+  .work-project-wrapper h2 {
+    color: #3333;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding: 45px 0 55px;
+  }
+  
+  .work-project-wrapper h2 span {
+    color: #F96D61;
+  }
+  
+  .work-project-wrapper .container {
+      height: 300px;
+    padding: 10px 0 10px 135px;
+  }
+  
+  .work-project-wrapper .container .card-width {
+    background-color: rgb(205, 202, 231);
+    width: 25%;
+    float: left;
+    margin: 0 37px 0 0;
+    padding: 18px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+            box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.7);
+  }
+  
+  .work-project-wrapper .container .card-width img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .work-project-wrapper .container .card-width h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color:rgb(14, 13, 13);
+    padding: 15px 0;
+  }
+  
+  .work-project-wrapper .container .card-width p {
+    font-size: 16px; 
+    color: #6C6C6C;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+
+  
+  
+  
+  .footer-wrapper {
+    padding: 35px 0;
+    text-align: center;
+  }
+  
+  .footer-wrapper p {
+    font-size: 24px;
+    
+    color: #696871;
+    padding: 15px 0;
+  }
+  
+  .footer-wrapper h4 {
+    font-size: 36px;
+    color: #363958;
+    padding: 0px 0 25px;
+  }
+  
+  .footer-wrapper li {
+    display: inline;
+    margin: 0 10px;
+    padding: 0 0 25px;
+  }
+
+/*# sourceMappingURL=style.css.map */
